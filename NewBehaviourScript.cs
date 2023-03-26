@@ -1,4 +1,10 @@
-﻿using System.Collections;
+/*
+* This code was designed for a project called TechnoBall, a 3D Platformer.
+* It is a character controller with camera relative movement.
+* It uses a Raycast to check if the character is grounded.
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
