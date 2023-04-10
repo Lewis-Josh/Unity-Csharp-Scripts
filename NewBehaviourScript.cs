@@ -140,7 +140,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        //Debug Shit
+        //Debug
         rb = GetComponent<Rigidbody>();
         Gizmos.color = Color.red;
         Debug.DrawLine(rb.transform.position + rb.GetComponent<SphereCollider>().center, rb.transform.position + rb.GetComponent<SphereCollider>().center + Vector3.down * 1.0f);
